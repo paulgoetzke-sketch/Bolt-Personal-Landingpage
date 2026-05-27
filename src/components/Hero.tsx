@@ -13,8 +13,10 @@ export function Hero() {
     >
       <div className="absolute inset-0 gradient-orange opacity-40" />
 
-      <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl" />
+      <div className="blob blob-1 top-20 -left-20 w-96 h-96 bg-gradient-to-br from-orange-500 to-orange-600" />
+      <div className="blob blob-2 top-1/3 right-0 w-80 h-80 bg-gradient-to-br from-orange-400 to-orange-500" />
+      <div className="blob blob-3 -bottom-10 left-1/4 w-72 h-72 bg-gradient-to-br from-orange-600 to-orange-700" />
+      <div className="blob blob-4 bottom-1/4 -right-32 w-96 h-96 bg-gradient-to-br from-orange-500 to-orange-600" />
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full mb-6">
