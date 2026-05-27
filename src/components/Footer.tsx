@@ -9,11 +9,11 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="text-xl font-bold mb-4">
-              <span className="text-white">Paul</span>
-              <span className="text-orange-500 ml-2">Götzke</span>
+              <span className="text-white">Grid</span>
+              <span className="text-orange-500">lane</span>
             </div>
             <p className="text-gray-500">
-              AI-powered Web Designer. Kreiere atemberaubende Websites mit moderner Technologie.
+              AI-powered Web Design Studio. Kreiere atemberaubende Websites mit moderner Technologie.
             </p>
           </div>
 
@@ -48,10 +48,10 @@ export function Footer() {
             <ul className="space-y-2 text-gray-500">
               <li>
                 <a
-                  href="mailto:hello@paulgotzke.de"
+                  href="mailto:hello@gridlane.studio"
                   className="hover:text-orange-500 transition-colors break-all"
                 >
-                  hello@paulgotzke.de
+                  hello@gridlane.studio
                 </a>
               </li>
               <li className="text-gray-600">Verfügbar für Projekte</li>
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-orange-500/10 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-          <p>© {currentYear} Paul Götzke. Alle Rechte vorbehalten.</p>
+          <p>© {currentYear} Gridlane. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-orange-500 transition-colors">
               Privacy Policy

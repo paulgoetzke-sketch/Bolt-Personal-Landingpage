@@ -14,8 +14,8 @@ export function Navigation() {
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-orange-900/20 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <span className="text-white">Paul</span>
-          <span className="text-orange-500 ml-2">Götzke</span>
+          <span className="text-white">Grid</span>
+          <span className="text-orange-500">lane</span>
         </div>
 
         <div className="hidden md:flex gap-8">
