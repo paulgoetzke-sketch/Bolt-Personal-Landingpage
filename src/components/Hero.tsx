@@ -33,7 +33,7 @@ export function Hero() {
           Ich kreiere atemberaubende Websites mit moderner KI-Technologie. Deine Vision, perfekt umgesetzt.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center mb-16">
+        <div className="flex flex-col md:flex-row gap-4 justify-center">
           <button
             onClick={() => scrollToSection('portfolio')}
             className="group px-8 py-4 bg-orange-500 text-white rounded-lg font-semibold hover:bg-orange-600 transition-all duration-300 flex items-center justify-center gap-2 hover:gap-3"
@@ -48,21 +48,6 @@ export function Hero() {
           >
             Jetzt Kontakt aufnehmen
           </button>
-        </div>
-
-        <div className="grid grid-cols-3 gap-8 pt-16 border-t border-orange-500/10">
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">50+</div>
-            <div className="text-gray-500 text-sm">Websites erstellt</div>
-          </div>
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">100%</div>
-            <div className="text-gray-500 text-sm">Kundenzufriedenheit</div>
-          </div>
-          <div>
-            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">24/7</div>
-            <div className="text-gray-500 text-sm">Support verfügbar</div>
-          </div>
         </div>
       </div>
     </section>
